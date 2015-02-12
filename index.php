@@ -34,6 +34,8 @@
 	  <li><a href="#" id="msg" class="btn btn-large btn-danger">消息通知测试</a></li>
 	</ul>
 
+<div id="userAgent"></div>
+
 <script type="text/javascript">
 var obj_api,obj_root;
 init();
@@ -122,6 +124,8 @@ function send(account){
 	});
 
 }
+
+$('#userAgent').text(navigator.userAgent);
 </script> 
 </body> 
 </html> 
