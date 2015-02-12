@@ -1,0 +1,15 @@
+html{
+	height:100%;overflow: hidden;overflow-y:auto; 
+}
+html,body{
+	padding: 0;margin:0;
+}
+
+.navbar{margin-bottom: 5px;}
+
+#uname{color: #fff;}
+
+#naver{list-style: none;margin: 0;padding:5px;}
+#naver li{padding: 5px;margin: 5px;}
+#naver li a{display:block;}
+
