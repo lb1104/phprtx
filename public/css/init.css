@@ -13,3 +13,17 @@ html,body{
 #naver li{padding: 5px;margin: 5px;}
 #naver li a{display:block;}
 
+#offMsgBox div.arrow{
+	left:auto;
+	right: 10%;
+}
+
+#offMsgUl li{
+	line-height: 1.5;
+	border-bottom: 1px solid #ddd;
+	padding: 5px 0;
+}
+#offMsgUl li small{color: #666;}
+#offMsgUl li p{margin:0; }
+#offMsgBox .popover-content{max-height: 400px;
+overflow: auto;}

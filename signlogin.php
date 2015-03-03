@@ -14,8 +14,9 @@ $bisSuccess = $UserAuth->SignatureAuth($user, $sign);
 if($bisSuccess)
 {
 	$_SESSION['uname'] = $olduser;
+	setcookie("uname", $olduser,strtotime( '+30 days' ));
 
-	echo "success!".$_SESSION['uname'];
+	echo "success!";
 }
 else
 {

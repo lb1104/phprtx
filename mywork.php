@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-	<title>通知公告</title>
+	<title>我的工作</title>
 
 	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
 
 </head>
 <body>
-通知通告<br/>
+我的工作<br/>
 <?php echo $_SESSION['uname'];?>
 <div id="result"></div>
 <script type="text/javascript">
